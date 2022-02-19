@@ -4,7 +4,6 @@ import Hero from "../components/hero/hero";
 import Gallery from "../components/gallery/gallery";
 import Adv from "../components/adv/adv";
 
-
 const Home = () => {
   return (
     <>

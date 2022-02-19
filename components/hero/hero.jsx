@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import styles from './hero.module.scss';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -20,9 +21,12 @@ const Hero = () => {
           <h1>Home One.<br/>The best one</h1>
           <p>Товары для обустройства дома</p>
           <p>Просто, понято, технологично</p>
-          <a href="#">
-            В каталог
-          </a>
+          <Link href="/goods">
+            <a>
+              В каталог
+            </a>
+          </Link>
+          
         </div>
 
       </div>
