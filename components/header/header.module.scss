@@ -1,0 +1,20 @@
+.header {
+	display: flex;
+	align-items: center;
+
+	min-height: 36px;
+
+	background-color: #383741;
+}
+
+.list {
+	display: flex;
+
+	color: #FFF;
+
+	font-size: 12px;
+
+	li {
+		margin-right: 25px;
+	}
+}

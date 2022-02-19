@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	color: #383741;
+
+	font-family: Inter, sans-serif;
+
+	font-size: 14px;
+	line-height: 21px;
+}
+
+a {
+	text-decoration: none;
+
+	color: inherit;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 0 20px;
+
+	@media (max-width: 768px) {
+		padding: 0 15px;
+	}
+
+	@media (max-width: 425px) {
+		padding: 0 10px;
+	}
+}
