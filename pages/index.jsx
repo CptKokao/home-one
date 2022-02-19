@@ -14,7 +14,6 @@ const Home = () => {
         <Adv />
         <Gallery />
       </main>
-
     </>
   )
 }

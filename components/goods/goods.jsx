@@ -4,7 +4,7 @@ import styles from './goods.module.scss';
 
 const Goods = () => {
   return (
-    <div className="container">
+    <main className="container">
       <h1>Товары</h1>
       
       <div className={styles.goods}>
@@ -249,7 +249,7 @@ const Goods = () => {
           </a>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
 
